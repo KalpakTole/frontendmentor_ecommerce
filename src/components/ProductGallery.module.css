@@ -1,0 +1,27 @@
+.product-gallery {
+	width: 55%;
+	padding: 0 0rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main-image {
+	width: 80%;
+	border-radius: 4%;
+	margin: 4rem 0 1rem 0;
+}
+
+.thumbnails {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-block: 1rem;
+}
+
+.thumbnails > img {
+	width: 20%;
+	border-radius: 10%;
+}

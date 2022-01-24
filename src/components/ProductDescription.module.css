@@ -1,0 +1,56 @@
+.product-description {
+	width: 40%;
+	padding: 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.description-wrapper {
+	text-align: left;
+}
+
+.sneaker-company {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: var(--orange);
+	font-weight: 600;
+}
+
+.fles-title {
+	margin: 1rem 0 2rem 0;
+	font-size: 46px;
+}
+
+.fles-des {
+	color: var(--dark-grayish-blue);
+}
+
+.price-discount {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 2rem 0 0 0;
+}
+
+.price {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.discount {
+	background-color: var(--pale-orange);
+	color: var(--orange);
+	padding: 0.25rem 0.5rem;
+	font-weight: 600;
+	border-radius: 15%;
+	margin: 0 1rem;
+}
+
+.original-price {
+	color: var(--grayish-blue);
+	font-weight: 600;
+	text-decoration: line-through;
+	margin: 0.5rem 0;
+}

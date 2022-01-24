@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid hsl(220, 14%, 75%);
+	border-bottom: 1px solid var(--grayish-blue);
 }
 
 .menu-container {
@@ -16,14 +16,14 @@
 }
 
 .menu-container > span {
-	color: hsl(219, 9%, 45%);
-	padding-block: 2rem;
+	color: var(--dark-grayish-blue);
+	padding-block: 3rem;
 	border-bottom: 4px solid transparent;
 	cursor: pointer;
 }
 
 .menu-container > span:hover {
-	border-bottom: 4px solid hsl(26, 100%, 55%);
+	border-bottom: 4px solid var(--orange);
 }
 
 .profile-container {
@@ -49,5 +49,5 @@
 }
 
 .user-avatar:hover {
-	border: 2px solid hsl(26, 100%, 55%);
+	border: 2px solid var(--orange);
 }
