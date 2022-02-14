@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classes from './ProductGallery.module.css';
 import IP1 from '../assets/image-product-1.jpg';
 import IP2 from '../assets/image-product-2.jpg';
@@ -29,6 +29,8 @@ const ProductGallery = () => {
 		}
 	};
 
+	
+
 	return (
 		<div className={classes['product-gallery']}>
 			<img src={currentImage} alt='Product MainImage' className={classes['main-image']}></img>
@@ -36,7 +38,7 @@ const ProductGallery = () => {
 				<img
 					src={IP1_Thumb}
 					alt='Product Thumbnail 1'
-					className={classes['thumbnail-1']}
+					className={`${classes['thumbnail-1']} ${classes['active']}`}
 					onClick={changeCurrentImageHandler}
 				></img>
 				<img

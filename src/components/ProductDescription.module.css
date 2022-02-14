@@ -57,27 +57,30 @@
 
 .button-container {
 	margin-block: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .change-amount {
 	padding: 1rem 0.5rem;
 	background: var(--light-grayish-blue);
 	border-radius: 0.75rem;
-	display: inline;
+	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .minus-button,
 .plus-button {
+	display: grid;
 	border: none;
 	outline: none;
 	background: none;
-	/* color: var(--orange);
-	font-size: medium;
-	font-weight: 600; */
 	margin: auto 1rem;
 	text-align: center;
+	user-select: none;
+	cursor: pointer;
 }
 
 .current-amount {
@@ -105,6 +108,8 @@
 	gap: 0.5rem;
 	border: none;
 	outline: none;
+	box-shadow: 0px 16px 20px 4px hsl(28, 100%, 90%);
+	cursor: pointer;
 }
 
 .add-to-cart-icon {
